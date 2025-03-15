@@ -1,8 +1,5 @@
 # Program to convert an amount of minutes into an equivalent amount 
 # of days, hours and minutes.
-#
-# Name: Sadie Chen
-# Student Number: CHNSAD004
 # Date: 20 February 2022
 
 input_str = input("Enter a quantity of minutes: ")
@@ -17,4 +14,3 @@ print("The number of days is", days, end=', ')
 print("the number hours is", hours, end=', ')
 print("and the number of minutes is", minutes, end='')
 print(".")
-
