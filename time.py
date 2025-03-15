@@ -1,16 +1,17 @@
-# Program to convert an amount of minutes into an equivalent amount 
-# of days, hours and minutes.
-# Date: 20 February 2022
+# validity of time
+# 26 February 2022
 
-input_str = input("Enter a quantity of minutes: ")
+hours = eval(input("Enter the hours:\n"))
+mins = eval(input("Enter the minutes:\n"))
+secs = eval(input("Enter the seconds:\n"))
 
-minutes = int(input_str)
-hours = minutes//60
-days = hours//24
-hours = hours%24
-minutes = minutes%60
-
-print("The number of days is", days, end=', ')
-print("the number hours is", hours, end=', ')
-print("and the number of minutes is", minutes, end='')
-print(".")
+if (hours >= 0 and hours <=23):
+    if mins >= 0 and mins <=59:
+        if secs >=0 and secs <=59:
+            print("Your time is valid.")
+        else:
+            print('Your time is invalid.')
+    else:
+        print('Your time is invalid.')
+else:
+    print('Your time is invalid.')
