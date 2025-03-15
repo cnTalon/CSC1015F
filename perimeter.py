@@ -1,7 +1,5 @@
 # A program to calculate the perimeter of a fence, and 
 # its associated cost
-# Name: Sadie Chen
-# Student Number: CHNSAD004
 # Date: 20 February 2022
 
 # Obtain width 1 from the user
