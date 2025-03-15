@@ -1,6 +1,4 @@
 # program to guess a secret number
-# Sadie Chen
-# CHNSAD004
 # 10 february 2022
 
 secret_number = 42    # create secret number in program
